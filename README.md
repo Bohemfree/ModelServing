@@ -12,7 +12,7 @@ Build tensorflow steps
 * bazel build --config=cuda tensorflow:tensorflow.lib
 ----
 Run steps
-1. Convert keras model(hdf5 format) to pb format model for using in C++ (cppflow_test/hdf52pb.py)
+1. Convert keras model(hdf5 format) to pb format model for using in C++ (hdf52pb.py)
 2. Run cppflow_test.cpp
 
 
